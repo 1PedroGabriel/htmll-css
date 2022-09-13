@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face {
+    font-family: droid;
+    src: url(IDroid-Bold.ttf.woff) format("truetype");
+}
+
+@font-face {
+    font-family: funt;
+    src: url(DCC\ -\ The\ alien\ are\ coming.ttf) format("truetype");
+}
+
+:root {
+    --cor0: #45454f
+}
+
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #84E1AD;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+header {
+    box-shadow: black 0px 0px 5px;
+    padding: 10px 0px;
+    background-image: linear-gradient(to bottom, #38CA79, #1A5C38);
+    
+}
+
+header > h1 {
+    text-align: center;
+    font-family: "funt";
+    color: white;
+    font-weight: 400;
+    text-shadow: rgba(0, 0, 0, 0.486) 0px 0px 5px;
+}
+
+header > p {
+    text-align: center;
+}
+
+header > nav {
+    margin-top: 60px;
+   
+}
+
+header > h2 {
+    border-radius: 5px 0px 0px 5px;
+}
+
+menu {
+    margin: 16px 0px 0px 0px;
+    transition-duration: 1s;
+}
+
+menu > a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    margin-left: 5px;
+    
+}
+
+menu > a:hover {
+    color: white;
+    transition-duration: 1s;
+}
+main {
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.404) 0px 5px 5px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+    padding: 5px;
+}
+
+main > h1 {
+    padding: 10px;
+    font-family: "droid";
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, #A3CEB7, #FBFEFD);
+    font-family: "droid";
+                                               
+}
+
+picture > img {
+    width: 100%;
+}
+
+section {
+    padding: 10px;
+    background-color: #1A5C38;
+    margin: auto;
+}
+
+div {
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--cor0);
+    
+}
+
+h3 {
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #1A5C38;
+    margin-bottom: 0px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: "✔️ ";
+}
+
+ul > li:hover {
+    color: blueviolet
+}
+footer {
+    background-color: #1A5C38;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
